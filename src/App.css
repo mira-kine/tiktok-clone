@@ -28,3 +28,7 @@ html {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+.app h1 {
+  color: white;
+}

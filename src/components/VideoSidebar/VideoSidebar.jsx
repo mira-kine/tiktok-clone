@@ -12,18 +12,18 @@ function VideoSidebar({ likes, shares, messages }) {
     <div className="videoSidebar">
       <div className="videoSidebar__button">
         {liked ? (
-          <FavoriteIcon fontsize="large" onClick={(e) => setLiked(false)} />
+          <FavoriteIcon fontSize="large" onClick={(e) => setLiked(false)} />
         ) : (
-          <FavoriteBorderIcon fontsize="large" onClick={(e) => setLiked(true)} />
+          <FavoriteBorderIcon fontSize="large" onClick={(e) => setLiked(true)} />
         )}
         <p>{liked ? likes + 1 : likes}</p>
       </div>
       <div className="videoSidebar__button">
-        <MessageIcon fontsize="large" />
+        <MessageIcon fontSize="large" />
         <p>{messages}</p>
       </div>
       <div className="videoSidebar__button">
-        <ShareIcon fontsize="large" />
+        <ShareIcon fontSize="large" />
         <p>{shares}</p>
       </div>
     </div>
