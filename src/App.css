@@ -9,9 +9,10 @@ html {
   place-items: center;
 }
 
-.app_videos {
+.app__videos {
   position: relative;
   height: 800px;
+  border-radius: 20px;
   /* hide the rest of the videos by using overflow: hidden */
   overflow: scroll;
   width: 80%;
@@ -19,11 +20,11 @@ html {
   scroll-snap-type: y mandatory;
 }
 
-.app_videos::-webkit-scrollbar {
+.app__videos::-webkit-scrollbar {
   display: none;
 }
 
-.app_videos {
+.app__videos {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }

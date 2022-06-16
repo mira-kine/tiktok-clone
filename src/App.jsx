@@ -3,9 +3,9 @@ import Video from './components/Video/Video';
 
 function App() {
   return (
-    // BEM
+    // BEM - Block, Elements, Modifiers
     <div className="app">
-      <div className="app_videos">
+      <div className="app__videos">
         <Video />
         <Video />
         <Video />
