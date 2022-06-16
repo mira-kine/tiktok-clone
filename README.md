@@ -31,3 +31,5 @@
 
 - scroll-snap-type: y mandatory on both html and on the component class
 - display: grid + place-items: center, it will center however the view width
+
+# Using react ticker to create the bottom ticker
