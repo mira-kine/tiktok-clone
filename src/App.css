@@ -1,0 +1,13 @@
+html {
+  scroll-snap-type: y mandatory;
+}
+
+.app_videos {
+  position: relative;
+  height: 800px;
+  /* hide the rest of the videos by using overflow: hidden */
+  overflow: scroll;
+  width: 80%;
+  max-width: 500px;
+  scroll-snap-type: y mandatory;
+}
