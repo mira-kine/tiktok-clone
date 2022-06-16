@@ -13,7 +13,7 @@ export default function VideoFooter({ channel, description, song }) {
         <div className="videoFooter__ticker">
           <AudiotrackIcon className="videoFooter__icon" />
           <Ticker mode="smooth">
-            {({ index }) => (
+            {() => (
               <>
                 <p>{song}</p>
               </>
