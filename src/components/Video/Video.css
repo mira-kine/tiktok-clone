@@ -1,0 +1,14 @@
+.video {
+  position: relative;
+  /* relative to parent, App Video container */
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  scroll-snap-align: start;
+}
+
+.video__player {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
