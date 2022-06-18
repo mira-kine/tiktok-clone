@@ -6,7 +6,19 @@ import db from './firebase';
 function App() {
   const [videos, setVideos] = useState([]);
 
+  // async function getVideos(db) {
+  //   const vidCol = collection(db, 'videos');
+  //   const vidSnapshot = await getDocs(vidCol);
+  //   const vidList = vidSnapshot.docs.map((doc) => doc.data());
+  //   return vidList;
+  // }
+
+  // useEffect(() => {
+  //   const vids = getVideos(db);
+  //   setVideos(vids);
+  // }, []);
   useEffect(() => {
+    // fires once when the component loads
     db.collection('videos').onSnapshot((snapshot) =>
       setVideos(snapshot.docs.map((doc) => doc.data()))
     );
